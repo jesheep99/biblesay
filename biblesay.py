@@ -4,7 +4,7 @@ import random
 import textwrap
 from optparse import OptionParser
 
-ascii_dove = """            \                                                                                           
+ascii_dove =r"""                                                                                       
              \                                                                          
               \                                                                         
                \                                                    O,                  
@@ -37,8 +37,8 @@ ascii_dove = """            \
                                                                     'n'                 
                                                                           """
 
-smaller_ascii_dove = """                   \                                                                                           
-                    \                                                                          
+smaller_ascii_dove = r"""
+                    \                                                             
                      \                                                                  
                       \                                  O,                  
                        \                                 o;,                 
